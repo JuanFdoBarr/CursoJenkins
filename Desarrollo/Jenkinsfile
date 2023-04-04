@@ -1,0 +1,13 @@
+pipeline
+{
+agent any
+  stages{
+    stage("UAT"){
+      step{
+         echo "UAT"
+      }
+    }
+    
+  }
+
+}
