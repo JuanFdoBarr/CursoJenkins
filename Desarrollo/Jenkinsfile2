@@ -2,9 +2,10 @@ pipeline
 {
 agent any
   stages{
-    stage("New"){
+    stage("Versions"){
       steps{
-         echo "Tengo un nuevo archivo"
+         bat 'git --version'
+         bat 'java --version'
       }
     }
     
