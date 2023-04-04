@@ -1,0 +1,13 @@
+pipeline
+{
+agent any
+  stages{
+    stage("New"){
+      steps{
+         echo "Tengo un nuevo archivo"
+      }
+    }
+    
+  }
+
+}
