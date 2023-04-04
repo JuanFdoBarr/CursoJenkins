@@ -3,7 +3,7 @@ pipeline
 agent any
   stages{
     stage("UAT"){
-      step{
+      steps{
          echo "UAT"
       }
     }
